@@ -1,0 +1,41 @@
+/*Clen up margins and set a modern font*/
+body {
+  margin: 0;
+  font-family:'Segoe UI' ,Tahoma,Geneva, Verdana, sans-serif;
+  background - colour: #f8f9fa;;
+  color:#333;
+}
+/*Style the Navigation Bar */
+.navbar{
+  display: flex;
+  justify - content: space-between;
+  align-items: center;
+  padding: 20px 40px;
+  background - color: #ffffff;
+  bax-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+.logo{
+  font-size:24px;
+  font-weight: bold;
+  color: #007bff;
+}
+.navbar nav a {
+  margin-left: 20px;
+  text-decoration : none ;
+  color: #555;
+  font-weight: 500;
+}
+.navbar nav a:hover {
+  color:#007bff;
+}
+/* Style the Hero Section */
+.hero {
+  text-align: center;
+  padding: 80px 20px;
+  background: linear-gradient(135deg,#eef2f3 0%, #8e9eab 100%);
+}
+.hero p {
+  font-size:18px;
+  color: #555;
+  margin-buttom: 30px;
+}
